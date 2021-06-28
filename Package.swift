@@ -8,7 +8,7 @@ package.platforms = [
 ]
 
 package.dependencies = [
-    .package(url: "https://github.com/vapor/vapor", .exact("4.47.0")),
+    .package(url: "https://github.com/vapor/vapor", .branch("async-await")),
     .package(url: "https://github.com/grpc/grpc-swift", .exact("1.1.0")),
 ]
 
